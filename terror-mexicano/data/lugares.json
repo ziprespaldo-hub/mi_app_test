@@ -1,0 +1,243 @@
+{
+  "planta_tratamiento": {
+    "nombre": "Planta de Tratamiento de Aguas 'El Desagüe'",
+    "tipo": "industrial",
+    "descripcion": "Instalacion subterranea de procesamiento de aguas residuales",
+    "caracteristicas": [
+      "Red de tuneles laberinticos no registrados en planos oficiales",
+      "Sonido constante de agua fluyendo que distorsiona la percepcion auditiva",
+      "Iluminacion fluorescente parpadeante con zumbido hipnotico",
+      "Olor a quimicos mezclado con algo organico en descomposicion",
+      "Temperatura siempre 5 grados por debajo de la superficie"
+    ],
+    "atmosfera": "Humedad constante, eco metalico, sensacion de estar siendo observado desde las tuberias",
+    "historia": "Construida en los 70s, ha tenido 12 'accidentes laborales' nunca explicados",
+    "elementos_terror": [
+      "Cosas que no deberian estar en el agua aparecen en los filtros",
+      "Voces que resuenan desde las tuberias vacias",
+      "Secciones del complejo no aparecen en los mapas pero existen fisicamente"
+    ],
+    "contextos": ["urbano", "gore", "sobrenatural"],
+    "horario_peligroso": "Turnos nocturnos 11 PM - 6 AM"
+  },
+
+  "edificio_oficinas": {
+    "nombre": "Torre Corporativa 'Milenio'",
+    "tipo": "corporativo",
+    "descripcion": "Edificio de oficinas de 24 pisos en zona financiera",
+    "caracteristicas": [
+      "Piso 13 oficialmente no existe (salta de 12 a 14) pero hay boton en algunos elevadores",
+      "Sistemas de ventilacion con ruido de respiracion",
+      "Cubiculos identicos que desorientan despues de horas laborales",
+      "Camaras de seguridad que graban 3 segundos en el futuro",
+      "Sala de juntas del piso 20 donde nadie recuerda que se discute"
+    ],
+    "atmosfera": "Aire acondicionado perpetuo, silencio artificial, luces LED sin calor",
+    "historia": "Construido sobre antiguo hospital psiquiatrico, inaugurado en 2008",
+    "elementos_terror": [
+      "Empleados que trabajan horas extra reportan 'duplicados' de si mismos",
+      "Correos electronicos enviados desde cuentas de empleados fallecidos",
+      "Ascensores que se detienen en pisos que no existen"
+    ],
+    "contextos": ["urbano", "psicologico", "sobrenatural"],
+    "horario_peligroso": "Despues de 9 PM cuando la seguridad hace rondas"
+  },
+
+  "estacion_metro": {
+    "nombre": "Estacion de Metro 'Fosa Comun'",
+    "tipo": "transporte",
+    "descripcion": "Antigua estacion clausurada de metro subterraneo",
+    "caracteristicas": [
+      "Aun tiene corriente electrica aunque oficialmente fue desconectada",
+      "Andenes que se extienden mas alla de lo que indican los planos",
+      "Graffiti que cambia de contenido cuando nadie mira",
+      "Corrientes de aire sin origen que arrastran susurros",
+      "Tuneles que llevan a secciones no construidas del sistema"
+    ],
+    "atmosfera": "Ozono mezclado con tierra humeda, eco interminable, oscuridad que parece solida",
+    "historia": "Cerrada en 1997 tras 'incidente de mantenimiento' nunca detallado publicamente",
+    "elementos_terror": [
+      "Sonido de trenes que nunca llegan",
+      "Siluetas en los tuneles que desaparecen al enfocar linterna",
+      "Mapas del metro muestran la estacion algunas noches, otras no"
+    ],
+    "contextos": ["urbano", "paranormal", "gotico"],
+    "horario_peligroso": "Entre 2 AM y 4 AM, cuando el sistema 'duerme'"
+  },
+
+  "motel_carretera": {
+    "nombre": "Motel 'Descanso Eterno'",
+    "tipo": "hospedaje",
+    "descripcion": "Motel de carretera con 16 habitaciones numeradas irregularmente",
+    "caracteristicas": [
+      "Habitaciones 7, 13 y 16 tienen cerraduras por fuera",
+      "Espejos en cada habitacion que reflejan con 2 segundos de retraso",
+      "Registro de huespedes que incluye fechas futuras",
+      "Telefonos que solo reciben llamadas, nunca permiten hacer",
+      "Estacionamiento con carros abandonados que nadie reclama"
+    ],
+    "atmosfera": "Olor a desinfectante sobre algo podrido, luces neon intermitentes, silencio roto por televisores estaticos",
+    "historia": "Operando desde 1985, ha cambiado de dueño 9 veces sin explicacion",
+    "elementos_terror": [
+      "Huespedes que hacen check-out pero nunca se van",
+      "Habitacion 13 siempre esta ocupada pero nadie responde",
+      "Manchas en alfombras que reaparecen despues de limpieza"
+    ],
+    "contextos": ["urbano", "psicologico", "gore"],
+    "horario_peligroso": "Cualquier hora despues del check-in"
+  },
+
+  "fabrica_textil": {
+    "nombre": "Antigua Fabrica Textil 'La Hilandera'",
+    "tipo": "industrial_abandonado",
+    "descripcion": "Fabrica textil cerrada desde 2003, tres pisos de maquinaria oxidada",
+    "caracteristicas": [
+      "Maquinas de coser que aun funcionan sin electricidad",
+      "Carretes de hilo que se desenrollan solos",
+      "Patrones de costura clavados en paredes con mensajes ocultos",
+      "Sala de calderas donde la temperatura sube sin razon",
+      "Oficinas del tercer piso con documentos de empleados inexistentes"
+    ],
+    "atmosfera": "Polvo textil suspendido en aire, crujidos de metal, olor a aceite rancio",
+    "historia": "Cerrada tras 'accidente' que mato a 7 trabajadoras, nunca investigado apropiadamente",
+    "elementos_terror": [
+      "Sonido de maquinas operando en turnos nocturnos",
+      "Hilos que forman patrones en el suelo cada mañana",
+      "Siluetas de trabajadores en ventanas del tercer piso"
+    ],
+    "contextos": ["urbano", "folk horror", "sobrenatural"],
+    "horario_peligroso": "Durante la madrugada, especialmente luna llena"
+  },
+
+  "hospital_abandonado": {
+    "nombre": "Hospital General 'Santa Misericordia'",
+    "tipo": "medico_abandonado",
+    "descripcion": "Hospital de 5 pisos cerrado hace 15 años por 'reestructuracion'",
+    "caracteristicas": [
+      "Quirofanos con equipo aun conectado que se enciende solo",
+      "Morgue en sotano con gavetas que se abren desde dentro",
+      "Historiales medicos de pacientes que aun no nacen",
+      "Pasillos que cambian de configuracion entre visitas",
+      "Enfermeria del cuarto piso donde el tiempo transcurre diferente"
+    ],
+    "atmosfera": "Formaldehido mezclado con desinfectante viejo, silencio interrumpido por pitidos de monitores fantasma",
+    "historia": "Cerrado subitamente en 2009 tras 'epidemia' nunca confirmada oficialmente",
+    "elementos_terror": [
+      "Pacientes en camas que desaparecen al ser examinados",
+      "Llamadas de emergencia desde habitaciones especificas",
+      "Personal medico que continua rondas nocturnas"
+    ],
+    "contextos": ["gotico", "gore", "paranormal"],
+    "horario_peligroso": "Cambio de turno fantasma: 3 AM"
+  },
+
+  "estacionamiento_subterraneo": {
+    "nombre": "Estacionamiento Subterraneo 'Plaza del Sol'",
+    "tipo": "comercial_subterraneo",
+    "descripcion": "Tres niveles bajo centro comercial, con 400 espacios numerados caoticamente",
+    "caracteristicas": [
+      "Nivel -3 tiene espacios numerados del 1 al 100, luego salta a 400",
+      "Sistemas de ventilacion que reproducen ecos de conversaciones pasadas",
+      "Camaras de seguridad que muestran autos que nunca entraron",
+      "Manchas de aceite que forman patrones diferentes cada dia",
+      "Escaleras de emergencia que llevan a niveles no construidos"
+    ],
+    "atmosfera": "Concreto humedo, olor a combustible, luces que proyectan sombras sin fuente",
+    "historia": "Construido en 2005, ha sido escenario de 23 'desapariciones temporales' de vehiculos",
+    "elementos_terror": [
+      "Autos estacionados que nadie reclama durante meses",
+      "Personas que olvidan donde estacionaron y vagan por horas",
+      "Sonido de motores en secciones vacias"
+    ],
+    "contextos": ["urbano", "psicologico", "cotidiano"],
+    "horario_peligroso": "Cierre del centro comercial, 10 PM en adelante"
+  },
+
+  "central_telefonica": {
+    "nombre": "Central Telefonica 'Comunicaciones del Norte'",
+    "tipo": "comunicaciones",
+    "descripcion": "Antigua central de conmutacion telefonica ahora automatizada",
+    "caracteristicas": [
+      "Salas de servidores que zumban con voces superpuestas",
+      "Cables que se reconectan solos en patrones no programados",
+      "Consolas de operadora de los 80s que aun reciben llamadas",
+      "Grabaciones de conversaciones que no deberian existir",
+      "Sala de archivos con cintas de llamadas futuras"
+    ],
+    "atmosfera": "Zumbido electrico constante, estatica que forma palabras, temperatura fluctuante",
+    "historia": "Operativa desde 1978, automatizada en 2001, mantenimiento minimo desde entonces",
+    "elementos_terror": [
+      "Llamadas interceptadas de numeros que no existen",
+      "Tecnicos que escuchan su propia voz en grabaciones viejas",
+      "Numeros que cuando se marcan responden versiones del pasado"
+    ],
+    "contextos": ["urbano", "paranormal", "psicologico"],
+    "horario_peligroso": "Madrugada, cuando trafico de llamadas es minimo"
+  },
+
+  "torre_agua": {
+    "nombre": "Torre de Agua 'El Tanque'",
+    "tipo": "infraestructura_abandonada",
+    "descripcion": "Antigua estructura de metal oxidado que abastecia a una fabrica clausurada",
+    "caracteristicas": [
+      "Reverberacion de las gotas de agua que caen desde lo alto distorsiona la voz",
+      "La escalera de caracol nunca se siente fija, cruje bajo el peso",
+      "Un grafiti dice: 'No mires hacia abajo, no mires hacia arriba'",
+      "El tanque principal emite un zumbido de baja frecuencia perceptible en el pecho",
+      "Base llena de botellas vacias y ceniza de fogatas extintas"
+    ],
+    "atmosfera": "Olor a metal oxidado y lluvia, sonido de metal dilatandose, altura vertiginosa",
+    "historia": "Un joven obrero cayo limpiando el interior en los 90s; el cuerpo nunca fue recuperado",
+    "elementos_terror": [
+      "Ecos que imitan la voz de quien llama desde abajo",
+      "Figuras que se reflejan en la superficie del agua en la cima sin fuente obvia",
+      "Escaleras que se extienden infinitamente hacia la oscuridad al mirar por mucho tiempo"
+    ],
+    "contextos": ["industrial", "vertiginoso", "sobrenatural"],
+    "horario_peligroso": "Medianoche, cuando el viento es mas fuerte y la luna esta en lo alto"
+  },
+
+  "bodega_frigorifica": {
+    "nombre": "Bodega Frigorifica '33'",
+    "tipo": "industrial",
+    "descripcion": "Enorme almacen de carne y verduras, con 15 camaras de congelacion.",
+    "caracteristicas": [
+      "Niebla de hielo perpetua que oscurece los pasillos",
+      "La puerta de la Camara 4 siempre esta abierta un poco",
+      "Ganchos de carnicero que oscilan sin brisa, casi imperceptiblemente",
+      "Huellas de manos congeladas en el metal, demasiado grandes para ser humanas",
+      "Sensores de movimiento que se activan sin fuente de calor detectable"
+    ],
+    "atmosfera": "Frio extremo que duele la piel, olor a carne cruda y amoniaco, silencio total",
+    "historia": "Cerrada tras un colapso en 2015 que supuestamente dejo a varias personas atrapadas.",
+    "elementos_terror": [
+      "El aliento de los personajes permanece visible incluso al salir al calor exterior",
+      "El sonido de un cuchillo siendo afilado desde la camara mas profunda",
+      "Productos caducados hace años que se ven frescos, pero al tocarlos se desintegran"
+    ],
+    "contextos": ["urbano", "gore", "psicologico"],
+    "horario_peligroso": "Cuando la temperatura desciende al punto de congelacion de la sangre (generalmente 4 AM)"
+  },
+
+  "puente_desviado": {
+    "nombre": "Puente Peatonal 'La Desviacion'",
+    "tipo": "infraestructura",
+    "descripcion": "Pasarela de concreto y acero sobre una carretera muy transitada, cubierta de grafitis de advertencia",
+    "caracteristicas": [
+      "El puente vibra ritmicamente incluso sin trafico perceptible",
+      "La sombra proyectada por el puente en la carretera es mas larga que el puente mismo",
+      "La gente a menudo olvida donde iba al cruzarlo",
+      "Un punto especifico donde las señales de celular y radio mueren sin razon",
+      "Hay escaleras que llevan hacia abajo a un campo vacio en lugar de la calle"
+    ],
+    "atmosfera": "Ruido constante de trafico distante, viento fuerte, sensacion de ingravidez",
+    "historia": "Un lugar comun de accidentes y saltos. Se dice que lo construyeron en un antiguo cementerio de peregrinos.",
+    "elementos_terror": [
+      "Ver tu vehiculo o un ser querido pasar debajo de ti dos veces",
+      "El puente parece infinitamente largo de noche, sin fin",
+      "Escuchar nombres susurrados desde el trafico de abajo, voces que te llaman por tu nombre"
+    ],
+    "contextos": ["urbano", "cotidiano", "sobrenatural"],
+    "horario_peligroso": "Las horas pico de trafico, especialmente al atardecer (6 PM - 8 PM)"
+  }
+}

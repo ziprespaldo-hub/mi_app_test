@@ -1,0 +1,706 @@
+{
+  "Aguascalientes": {
+    "geografia": "Zona semiarida del altiplano central con barrancas y cañadas. Meseta con clima templado semi-seco. La Sierra Fria ofrece zonas boscosas de encino y pino, contrastando con las llanuras y cañadas erosionadas del centro.",
+    "elementos": [
+      "minas abandonadas",
+      "haciendas virreinales",
+      "tuneles subterraneos",
+      "ferias tradicionales",
+      "viejas estaciones de tren"
+    ],
+    "atmosfera": "Aire seco y polvoriento, silencio de desierto interrumpido por vientos",
+    "experiencia_sensorial": {
+      "olores": "Tierra seca, metal oxidado de las minas, pulque fermentado en el campo.",
+      "colores": "Ocre y siena del suelo, gris-azulado de la cantera.",
+      "sonidos": "El chirrido del viento entre las cañadas, el repique de campanas de pueblo."
+    },
+    "historia_dominante": "Ferrocarriles y Vida Virreinal Minera",
+    "leyendas_y_mitos": [
+      "La Calle de la Cruz (donde un alma en pena espera un entierro digno)",
+      "Los tuneles secretos de la ciudad que conectan iglesias y haciendas",
+      "La Llorona en el Rio San Pedro"
+    ]
+  },
+  "Baja California": {
+    "geografia": "Peninsula arida con costa rocosa del Pacifico, desiertos y montañas. Definida por la Sierra de Juarez y San Pedro Martir. Desierto de roca y arena que se encuentra con un Oceano Pacifico frio y bravo. Valles de vid en el norte.",
+    "elementos": [
+      "pueblos fronterizos",
+      "construcciones industriales",
+      "paisajes volcanicos",
+      "zonas mineras",
+      "faros aislados"
+    ],
+    "atmosfera": "Vientos salados, niebla costera, vastedad desoladora",
+    "experiencia_sensorial": {
+      "olores": "Yodo y sal marina intensos, gasoleo y comida rapida cerca de la frontera, tierra quemada por el sol.",
+      "colores": "Gris acero del Pacifico, rojos y negros de las rocas volcanicas.",
+      "sonidos": "El bramido del oleaje contra la roca, el zumbido constante de maquinaria fronteriza."
+    },
+    "historia_dominante": "Frontera, Conflicto y Desierto Extremo",
+    "leyendas_y_mitos": [
+      "El 'Toro' de la Rumorosa (un ser que aparece en la carretera montañosa)",
+      "El alma en pena del Casino de Tijuana",
+      "Historias de contrabandistas en la sierra"
+    ]
+  },
+  "Baja California Sur": {
+    "geografia": "Desierto costero, mares turquesa, formaciones rocosas antiguas. Desierto de Vizcaino y de la Giganta. Montañas aridas que caen directamente sobre el Mar de Cortes. Oasis de palmeras en los valles interiores y vastas playas de arena blanca.",
+    "elementos": [
+      "misiones coloniales aisladas",
+      "cuevas marinas",
+      "pueblos pesqueros",
+      "oasis deserticos",
+      "arte rupestre prehistorico"
+    ],
+    "atmosfera": "Calor sofocante diurno, frio nocturno, silencio absoluto del desierto",
+    "experiencia_sensorial": {
+      "olores": "Salitre y pescado fresco, flores de cactus, arena caliente.",
+      "colores": "Turquesa irreal del Mar de Cortes, blanco brillante de la arena, ocre del desierto.",
+      "sonidos": "El suave chapoteo de las olas en calas tranquilas, el aleteo de las aves marinas."
+    },
+    "historia_dominante": "Misiones Jesuiticas y Aislamiento Peninsular",
+    "leyendas_y_mitos": [
+      "La sirena de Cabo San Lucas que aparece en noches de luna llena",
+      "Historias de piratas escondiendo tesoros en las islas del Mar de Cortes",
+      "Los espectros en las misiones antiguas"
+    ]
+  },
+  "Campeche": {
+    "geografia": "Selva maya, costa del Golfo, ruinas arqueologicas. Terreno plano y selvatico. Litoral con manglares y esteros. La selva tropical humeda esconde ruinas mayas monumentales. Su capital esta rodeada por murallas historicas.",
+    "elementos": [
+      "fortificaciones piratas",
+      "haciendas henequeneras",
+      "cenotes profundos",
+      "zonas arqueologicas",
+      "manglares"
+    ],
+    "atmosfera": "Humedad selvatica opresiva, sonidos de fauna nocturna, niebla marina",
+    "experiencia_sensorial": {
+      "olores": "Barro humedo y vegetacion en descomposicion, polvora antigua de las fortificaciones, sal marina espesa.",
+      "colores": "Verde esmeralda y musgoso de la selva, gris piedra de las murallas.",
+      "sonidos": "El zumbido constante de insectos, el chapoteo en los manglares, el eco en los tuneles de la muralla."
+    },
+    "historia_dominante": "Pirateria, Fortificaciones y Mundo Maya",
+    "leyendas_y_mitos": [
+      "Los fantasmas de piratas en el Fuerte de San Miguel",
+      "El Callejon del Sapo (con historias de amor y traicion)",
+      "El alux (ser mitologico maya) que cuida las zonas arqueologicas"
+    ]
+  },
+  "Chiapas": {
+    "geografia": "Montañas, selva Lacandona, cañones profundos, rios caudalosos. Tierra de contrastes dramaticos. La Sierra Madre de Chiapas con picos altos y clima frio. El oriente esta cubierto por la densa y humeda Selva Lacandona, cortada por cañones de piedra caliza y rios esmeralda.",
+    "elementos": [
+      "comunidades indigenas aisladas",
+      "fincas cafetaleras",
+      "cuevas ceremoniales",
+      "cascadas",
+      "Cañon del Sumidero"
+    ],
+    "atmosfera": "Neblina perpetua en montañas, humedad selvatica pegajosa, ecos en cañones",
+    "experiencia_sensorial": {
+      "olores": "Tierra mojada y musgo, aroma intenso del cafe tostado, incienso y copal en pueblos ceremoniales.",
+      "colores": "Verde esmeralda de los rios, verde profundo de la selva, blanco y gris de la neblina andina.",
+      "sonidos": "Aullidos de monos saraguatos, el rugido constante de las cascadas, el murmullo de lenguas indigenas."
+    },
+    "historia_dominante": "Cultura Maya, Resistencia Indigena y Selva Intacta",
+    "leyendas_y_mitos": [
+      "La Tishanila (mujer que atrae hombres al Cañon del Sumidero)",
+      "Los naguales que se transforman en animales en la selva",
+      "Historias de tesoros ocultos en las cuevas ceremoniales"
+    ]
+  },
+  "Chihuahua": {
+    "geografia": "Desierto, sierras imponentes, barrancas profundas. El estado mas grande. Desierto de Chihuahua al este y la Sierra Madre Occidental al oeste, que alberga las majestuosas Barrancas del Cobre. Clima extremadamente seco y contrastante.",
+    "elementos": [
+      "pueblos mineros fantasma",
+      "haciendas coloniales",
+      "cuevas en acantilados",
+      "campos agricolas",
+      "vias del Chepe"
+    ],
+    "atmosfera": "Sequedad extrema, tormentas de arena, ecos en barrancas",
+    "experiencia_sensorial": {
+      "olores": "Polvo y ozono despues de una tormenta, mezquite seco, metal y azufre en zonas mineras.",
+      "colores": "Marron rojizo de las Barrancas, azul palido del cielo desertico, blanco de las salinas.",
+      "sonidos": "El silbido del viento frio, el eco profundo en los cañones, el traqueteo de trenes lejanos."
+    },
+    "historia_dominante": "Revolucion Mexicana y Aventura Minera",
+    "leyendas_y_mitos": [
+      "La casa de la Llorona en el Centro Historico",
+      "Fantasmas de revolucionarios en las viejas estaciones de tren",
+      "El tesoro de Pancho Villa escondido en la sierra"
+    ]
+  },
+  "Coahuila": {
+    "geografia": "Desierto, dunas, montañas aridas, llanuras extensas. Region dominada por el Desierto de Coahuila y sus vastas dunas de arena (como las de Bilbao). Presencia de la Sierra Madre Oriental en el sureste y grandes llanuras ganaderas.",
+    "elementos": [
+      "plantas industriales abandonadas",
+      "haciendas ganaderas",
+      "minas de carbon",
+      "pueblos fronterizos",
+      "Dunas de arena"
+    ],
+    "atmosfera": "Calor abrasador, vientos deserticos constantes, aislamiento",
+    "experiencia_sensorial": {
+      "olores": "Carbon, tierra seca y quemada, pasto de ganado al atardecer.",
+      "colores": "Amarillo palido de las dunas, negro de las zonas mineras, azul intenso del cielo.",
+      "sonidos": "Silencio roto por el ulular del viento, el crujido de la arena bajo los pies."
+    },
+    "historia_dominante": "Mineria, Ganaderia y Desarrollo Industrial",
+    "leyendas_y_mitos": [
+      "El desierto de la Laguna y sus avistamientos OVNI",
+      "La 'niña' que juega en los pozos de las minas de carbon",
+      "Historias de la Dama de Negro en Saltillo"
+    ]
+  },
+  "Colima": {
+    "geografia": "Costa tropical, volcanes activos, valles fertiles. El estado mas pequeño del Pacifico. Clima tropical humedo en la costa y valles. Dominado por la presencia imponente del Volcan de Fuego (activo) y el Nevado de Colima.",
+    "elementos": [
+      "plantaciones de coco y limon",
+      "pueblos costeros",
+      "zonas volcanicas activas",
+      "haciendas de palma",
+      "puerto de Manzanillo"
+    ],
+    "atmosfera": "Humedad tropical, retumbos volcanicos lejanos, oleaje constante",
+    "experiencia_sensorial": {
+      "olores": "Azufre y ceniza volcanica, coco y salinidad marina, flores tropicales.",
+      "colores": "Verde intenso de las plantaciones, negro de la arena volcanica.",
+      "sonidos": "El estruendo lejano del volcan, el graznido de la fauna tropical, el ruido del puerto."
+    },
+    "historia_dominante": "Comercio Maritimo y Cultivos Tropicales",
+    "leyendas_y_mitos": [
+      "El 'Hombre de Fuego' que se aparece cerca del volcan",
+      "La cueva de la serpiente emplumada",
+      "Historias de apariciones en el antiguo Fuerte de San Fernando"
+    ]
+  },
+  "Durango": {
+    "geografia": "Sierras escarpadas, bosques de coniferas, cañones. Corazon de la Sierra Madre Occidental. Paisajes montañosos, densos bosques de pino y encino, y barrancas profundas. Clima frio en la sierra, semi-calido en los valles.",
+    "elementos": [
+      "pueblos mineros abandonados",
+      "ranchos aislados",
+      "cuevas y grutas",
+      "caminos de montaña sinuosos",
+      "presidios y carceles antiguas"
+    ],
+    "atmosfera": "Frio de montaña, niebla entre pinos, ecos en barrancos",
+    "experiencia_sensorial": {
+      "olores": "Madera y resina de pino, tierra mojada y musgo, metal de las minas.",
+      "colores": "Verde oscuro del bosque, gris de la roca, azul claro del cielo de altura.",
+      "sonidos": "El silencio roto solo por el viento en los arboles, el goteo en las cuevas."
+    },
+    "historia_dominante": "Oro, Mineria y Western Americano",
+    "leyendas_y_mitos": [
+      "La 'Zona del Silencio' (fenomenos electromagneticos inexplicables)",
+      "El fantasma de la monja en la Ex-Hacienda de Dolores",
+      "La Mulata de Cordoba (bruja que escapo de la prision con magia)"
+    ]
+  },
+  "Guanajuato": {
+    "geografia": "Montañas, valles mineros, tuneles subterraneos extensos. Region montañosa de la Sierra de Guanajuato. Valles de tierra roja ricos en minerales. La capital es famosa por su intrincada red de calles, callejones y tuneles que siguen el curso de un antiguo rio.",
+    "elementos": [
+      "minas coloniales de plata",
+      "haciendas de beneficio",
+      "tuneles urbanos vehiculares y peatonales",
+      "callejones empedrados estrechos",
+      "iglesias barrocas"
+    ],
+    "atmosfera": "Eco en tuneles, aire frio subterraneo, humedad de mina",
+    "experiencia_sensorial": {
+      "olores": "Humedad y moho en los tuneles, cantera humeda, incienso en las iglesias.",
+      "colores": "Gris oscuro de la roca, colores vivos de las fachadas coloniales.",
+      "sonidos": "El eco de las voces y pasos en los callejones, el ruido amortiguado de los autos en los tuneles."
+    },
+    "historia_dominante": "Independencia de Mexico y Riqueza Minera",
+    "leyendas_y_mitos": [
+      "El Callejon del Beso (historia de amor prohibido y muerte)",
+      "El fantasma de La Llorona en el Meson de San Antonio",
+      "Historias de los cuerpos momificados y sus maldiciones"
+    ]
+  },
+  "Guerrero": {
+    "geografia": "Costa tropical, montañas de la Sierra Madre, barrancas. Litoral caliente y humedo con playas de arena dorada. La Sierra Madre del Sur domina el interior con terreno accidentado, dificil acceso y clima templado-frio en las alturas.",
+    "elementos": [
+      "pueblos serranos aislados",
+      "zonas arqueologicas (como Xochipala)",
+      "cuevas y grutas (como Cacahuamilpa)",
+      "playas desiertas",
+      "plantaciones de mango y cafe"
+    ],
+    "atmosfera": "Humedad costera y selvatica, sonidos de oleaje, aislamiento montañoso",
+    "experiencia_sensorial": {
+      "olores": "Sal marina, tierra humeda, flores tropicales, incienso en las grutas.",
+      "colores": "Azul cobalto del oceano, verde intenso de la vegetacion, ocre de las rocas.",
+      "sonidos": "El rugido del Pacifico, el canto de las chicharras en la sierra, el silencio profundo de las cuevas."
+    },
+    "historia_dominante": "Resistencia, Arte de la Plata y Zonas de Transicion",
+    "leyendas_y_mitos": [
+      "Las leyendas de las Cuevas de Cacahuamilpa (revelaciones divinas)",
+      "El fantasma del Fuerte de San Diego en Acapulco",
+      "Historias de nahuales en las comunidades de la Sierra"
+    ]
+  },
+  "Hidalgo": {
+    "geografia": "Valle del Mezquital, bosques, barrancas, zonas semiaridas. Transicion entre el semidesierto y la Sierra Madre Oriental (Huasteca Hidalguense). Valles secos, bosques de coniferas y barrancas profundas (como la de Metztitlan).",
+    "elementos": [
+      "ex haciendas pulqueras",
+      "pueblos mineros de origen ingles (Real del Monte)",
+      "conventos coloniales",
+      "presas y acueductos antiguos",
+      "Bosques de niebla"
+    ],
+    "atmosfera": "Niebla matinal en valles, viento frio de montaña",
+    "experiencia_sensorial": {
+      "olores": "Maguey y pulque fermentado, aire limpio y frio de bosque, olor a pasto mojado.",
+      "colores": "Gris de la niebla, rojo de las fachadas mineras, verde de los valles.",
+      "sonidos": "Silbidos en las minas abandonadas, el gotear de la niebla en los arboles."
+    },
+    "historia_dominante": "Extraccion Minera y Cultura del Maguey",
+    "leyendas_y_mitos": [
+      "Los duendes de Real del Monte (que roban objetos o asustan en las minas)",
+      "La Dama de Rojo en la Ex Hacienda de San Miguel Regla",
+      "El mito de la sirena del Rio Tula"
+    ]
+  },
+  "Jalisco": {
+    "geografia": "Barrancas, lagos, volcanes, campos de agave, costa del Pacifico. Terreno variado. Barranca del Rio Grande de Santiago y el gran Lago de Chapala. Zona volcanica (Volcan de Tequila) cubierta de campos de agave azul. Costa tropical y sierra boscosa.",
+    "elementos": [
+      "haciendas tequileras",
+      "pueblos coloniales de tierra adentro",
+      "barrancas profundas",
+      "lagos y lagunas",
+      "El paisaje agavero"
+    ],
+    "atmosfera": "Aire seco de agave, ecos en barrancas, calor humedo costero",
+    "experiencia_sensorial": {
+      "olores": "Agave cocido y fermentado, olor a tierra mojada y pasto quemado en la sierra, salinidad en la costa.",
+      "colores": "Azul cobalto del agave, marron rojizo de la tierra fertil, azul profundo del Lago de Chapala.",
+      "sonidos": "El eco en la Barranca de Huentitan, musica de mariachi lejana, el crujir del fuego en las destilerias."
+    },
+    "historia_dominante": "Cultura Tequilera, Mariachi y Charro",
+    "leyendas_y_mitos": [
+      "El fantasma del panteon de Belen y la tumba de Nachito",
+      "La leyenda de La Barranca de Oblatos y sus apariciones",
+      "Historias de la Dama Enlutada en el Teatro Degollado"
+    ]
+  },
+  "Mexico": {
+    "geografia": "Valles, volcanes nevados, bosques de coniferas, zona lacustre. Rodeado por los volcanes Popocatepetl e Iztaccihuatl. Valles altos y frios. Bosques densos de oyamel y pino que dan paso a la vasta mancha urbana en el centro y a zonas lacustres en el sur.",
+    "elementos": [
+      "pueblos industriales",
+      "zonas arqueologicas (Teotihuacan, Tenayuca)",
+      "bosques densos de altura",
+      "lagos y humedales (Valle de Bravo, Lerma)",
+      "Ex-haciendas agricolas"
+    ],
+    "atmosfera": "Frio de altura, neblina constante, aire enrarecido",
+    "experiencia_sensorial": {
+      "olores": "Pino y tierra de bosque, ceniza volcanica, gases de combustion en la zona urbana.",
+      "colores": "Blanco de la nieve en los volcanes, verde intenso de los bosques, gris de la mancha urbana.",
+      "sonidos": "El crujido de la madera en el bosque, el ruido de la maquinaria industrial."
+    },
+    "historia_dominante": "Teotihuacanos, Virreinato y Desarrollo Urbano",
+    "leyendas_y_mitos": [
+      "El fantasma del Monje en el Nevado de Toluca",
+      "Historias de brujas y nahuales en el Valle de Bravo",
+      "El mito de Popocatepetl e Iztaccihuatl (la leyenda de los amantes)"
+    ]
+  },
+  "Michoacan": {
+    "geografia": "Montañas, lagos, bosques de oyamel, costa del Pacifico. Region de lagos y volcanes. Meseta Purepecha. Bosques densos de oyamel (hogar de la Mariposa Monarca) que rodean el Lago de Patzcuaro y Cuitzeo. Costa escarpada en el Pacifico.",
+    "elementos": [
+      "haciendas coloniales",
+      "pueblos artesanales (Patzcuaro)",
+      "zonas lacustres",
+      "volcanes (Paricutin)",
+      "zonas de Mariposa Monarca"
+    ],
+    "atmosfera": "Humedad lacustre, niebla en bosques, silencio de pueblos",
+    "experiencia_sensorial": {
+      "olores": "Humedad de lago, humo de leña, resina de oyamel, pescado asado.",
+      "colores": "Marron y cobrizo de las mariposas, gris azulado del lago.",
+      "sonidos": "El remo de las canoas en el lago, el susurro del viento al pasar por el santuario de mariposas."
+    },
+    "historia_dominante": "Cultura Purepecha y Herencia Colonial",
+    "leyendas_y_mitos": [
+      "La princesa Erendira y la leyenda de la formacion del Lago de Patzcuaro",
+      "Los 'Kuanaris' (seres mitologicos purepechas que habitan la sierra)",
+      "El fantasma del minero en la Mina de Dos Estrellas"
+    ]
+  },
+  "Morelos": {
+    "geografia": "Valles calidos, barrancas, zonas arqueologicas. Clima calido y templado que lo convierte en 'la eterna primavera'. Valles fertiles y profundas barrancas. Cerca del Volcan Popocatepetl, lo que le otorga un suelo rico.",
+    "elementos": [
+      "ex haciendas azucareras",
+      "balnearios antiguos",
+      "conventos coloniales del siglo XVI",
+      "tuneles en Cuernavaca",
+      "zonas arqueologicas (Xochicalco)"
+    ],
+    "atmosfera": "Calor humedo constante, vegetacion densa, sonidos nocturnos",
+    "experiencia_sensorial": {
+      "olores": "Caña de azucar y melaza, flores de bugambilia, cloro de alberca antigua.",
+      "colores": "Verde brillante de la vegetacion, rojo y naranja de la tierra.",
+      "sonidos": "El goteo de las fuentes antiguas, el canto de las chicharras al atardecer."
+    },
+    "historia_dominante": "Explotacion Agricola y Descanso Virreinal",
+    "leyendas_y_mitos": [
+      "La Casa de la Condesa en Cuernavaca (apariciones fantasmales)",
+      "El Jinete sin cabeza en las ex-haciendas azucareras",
+      "Historias del Diablo en Tepoztlan"
+    ]
+  },
+  "Nayarit": {
+    "geografia": "Costa tropical, selva, islas, manglares. Litoral caliente con la Sierra de San Juan y el Volcan Ceboruco. Selva tropical y extensos manglares en la costa. Incluye las Islas Marias (antes centro penitenciario).",
+    "elementos": [
+      "pueblos indigenas serranos (Huichol)",
+      "zonas arqueologicas",
+      "islas (Islas Marias, Islas Marietas)",
+      "manglares y esteros",
+      "plantaciones de tabaco"
+    ],
+    "atmosfera": "Humedad selvatica y marina, sonidos de fauna, aislamiento",
+    "experiencia_sensorial": {
+      "olores": "Salinidad intensa, tabaco seco, humedad de manglar y lodo.",
+      "colores": "Verde jade del mar, marron oscuro del estero.",
+      "sonidos": "El grito de los pajaros en los manglares, el oleaje en playas virgenes."
+    },
+    "historia_dominante": "Comunidades Indigenas y Aislamiento Costero",
+    "leyendas_y_mitos": [
+      "La piedra encantada de la Isla de Mexcaltitan",
+      "Historias de los presos en las Islas Marias y sus apariciones",
+      "Mitos sobre el Volcan Ceboruco y sus guardianes"
+    ]
+  },
+  "Nuevo Leon": {
+    "geografia": "Montañas aridas, cañones, zona metropolitana industrial. Dominado por la Sierra Madre Oriental (Cerro de la Silla). Montañas y cañones de piedra caliza. Valles secos que dan paso a una de las zonas urbanas mas grandes y desarrolladas del pais.",
+    "elementos": [
+      "fabricas abandonadas",
+      "cañones deserticos (Huasteca, Chipinque)",
+      "zonas industriales modernas",
+      "grutas profundas (Garcia)",
+      "casas de cantera antigua"
+    ],
+    "atmosfera": "Calor seco urbano, eco en cañones, vientos de montaña",
+    "experiencia_sensorial": {
+      "olores": "Aire seco y a veces contaminado, caliza mojada en las grutas, olor a asado en los suburbios.",
+      "colores": "Gris cemento del area metropolitana, marron y blanco de las rocas de montaña.",
+      "sonidos": "Ruido constante de la metropoli, el eco del viento en las montañas."
+    },
+    "historia_dominante": "Industrializacion, Comercio y Montaña",
+    "leyendas_y_mitos": [
+      "La Casa de Aramberri (una de las casas mas embrujadas de Mexico)",
+      "Historias de brujas en el Cerro de la Silla",
+      "La 'niña' que juega en el interior de la Cueva de los Murcielagos"
+    ]
+  },
+  "Oaxaca": {
+    "geografia": "Sierras, valles, costa del Pacifico, zonas arqueologicas. Tierra de las tres Sierras (Sur, Norte y Mixteca). Valles Centrales con clima templado. Costa del Pacifico con playas y selva seca. Gran diversidad de ecosistemas y altitudes.",
+    "elementos": [
+      "comunidades indigenas remotas",
+      "zonas arqueologicas (Monte Alban, Mitla)",
+      "conventos y edificios de cantera verde",
+      "cuevas y grutas",
+      "campos de maguey mezcalero"
+    ],
+    "atmosfera": "Diversidad climatica, niebla en montañas, calor costero",
+    "experiencia_sensorial": {
+      "olores": "Humus de montaña, humo de leña, mezcal ahumado, chocolate, incienso.",
+      "colores": "Verde olivo de la cantera, colores vibrantes de los textiles, azul y cafe en los valles.",
+      "sonidos": "El murmullo de las lenguas indigenas, el repique de campanas, el oleaje en Puerto Escondido."
+    },
+    "historia_dominante": "Cultura Zapoteca y Mixteca, Mezcal y Diversidad",
+    "leyendas_y_mitos": [
+      "La Matlazihua (bruja que seduce hombres en el valle)",
+      "El fantasma del ex-Convento de Cuilapam (el ahorcado)",
+      "Historias de nahuales y chaneques en la Sierra"
+    ]
+  },
+  "Puebla": {
+    "geografia": "Volcanes, valles, sierras, zonas arqueologicas. Dominado por el Popocatepetl y el Iztaccihuatl. Valles altos y frios. Zona de la Sierra Norte con clima humedo. Famosa por sus edificios de talavera y su arquitectura colonial.",
+    "elementos": [
+      "haciendas coloniales",
+      "conventos del siglo XVI",
+      "tuneles subterraneos",
+      "pueblos magicos (Cholula, Atlixco)",
+      "piramides cubiertas de iglesias"
+    ],
+    "atmosfera": "Frio de volcan, niebla en valles, aire de altura",
+    "experiencia_sensorial": {
+      "olores": "Polvora despues de los sismos, pan de pueblo, humedad en los tuneles.",
+      "colores": "Blanco y azul de la talavera, gris de la piedra volcanica.",
+      "sonidos": "Las sirenas en la ciudad, el ruido del viento en las cumbres, el murmullo en los tuneles."
+    },
+    "historia_dominante": "Barroco, Talavera y Batalla de 5 de Mayo",
+    "leyendas_y_mitos": [
+      "Los tuneles secretos bajo la ciudad de Puebla (la cueva del diablo)",
+      "La Calle de los Duendes (que asustan a los niños)",
+      "La Llorona del rio de San Francisco"
+    ]
+  },
+  "Queretaro": {
+    "geografia": "Sierras, semidesierto, valles verdes. Transicion geografica marcada. Semidesierto seco y arido en el centro-norte y la Sierra Gorda con densos bosques de niebla y cañones en el noreste. Valles templados al sur.",
+    "elementos": [
+      "haciendas de cantera rosa",
+      "acueductos coloniales monumentales",
+      "minas abandonadas",
+      "conventos franciscanos",
+      "casas de cantera"
+    ],
+    "atmosfera": "Contraste climatico, vientos secos, silencio serrano",
+    "experiencia_sensorial": {
+      "olores": "Piedra seca al sol, tierra arida, humedad de musgo en la sierra.",
+      "colores": "Rosa de la cantera, marron de la tierra desertica, verde esmeralda de los rios de la Sierra Gorda.",
+      "sonidos": "El eco en los cañones, el silbido del viento en el acueducto."
+    },
+    "historia_dominante": "Conspiracion, Mineria y Misiones Franciscanas",
+    "leyendas_y_mitos": [
+      "La Monja de la Cruz (un alma en pena en el Ex-Convento de la Cruz)",
+      "El fantasma de la Corregidora en el Teatro de la Republica",
+      "Historias de seres misticos en la Sierra Gorda"
+    ]
+  },
+  "Quintana Roo": {
+    "geografia": "Selva maya, costa caribeña, cenotes, manglares. Peninsula plana y caliza. La selva tropical cubre casi todo el territorio. Litoral de playas de arena blanca y arrecifes de coral. Miles de cenotes y sistemas de rios subterraneos.",
+    "elementos": [
+      "zonas arqueologicas (Tulum, Coba)",
+      "cenotes profundos",
+      "selva densa",
+      "playas aisladas",
+      "hoteles abandonados"
+    ],
+    "atmosfera": "Humedad extrema, sonidos selvaticos, oscuridad de cenotes",
+    "experiencia_sensorial": {
+      "olores": "Salinidad, arena blanca, agua dulce de cenote, vegetacion podrida en el manglar.",
+      "colores": "Turquesa irreal del mar, verde oscuro de la selva.",
+      "sonidos": "El murmullo de las olas, el silencio total bajo el agua del cenote, el canto de las aves en la selva."
+    },
+    "historia_dominante": "Mundo Maya y Desarrollo Turistico",
+    "leyendas_y_mitos": [
+      "La Xtabay (mujer seductora que aparece en la selva)",
+      "Los aluxes que cuidan los cenotes y las ruinas",
+      "Mitos sobre entradas a un inframundo en los cenotes profundos"
+    ]
+  },
+  "San Luis Potosi": {
+    "geografia": "Desierto, montañas, cascadas, zona huasteca. Dividido en cuatro zonas: Altiplano (desertico), Zona Media (templada), Zona Centro (valles) y Huasteca Potosina (selva humeda y montañosa con rios caudalosos).",
+    "elementos": [
+      "pueblos mineros fantasma (Real de Catorce)",
+      "haciendas de beneficio",
+      "cascadas (Tamul, Micos)",
+      "cuevas y sotanos (Sotano de las Golondrinas)",
+      "jardines surrealistas"
+    ],
+    "atmosfera": "Sequedad desertica, humedad huasteca, ecos en cuevas",
+    "experiencia_sensorial": {
+      "olores": "Polvo y azufre en el Altiplano, humedad y flores en la Huasteca, piedra mojada en las cuevas.",
+      "colores": "Verde esmeralda de los rios huastecos, gris y ocre del desierto.",
+      "sonidos": "El estruendo de las cascadas, el murmullo de los vientos en Real de Catorce, el eco en el sotano."
+    },
+    "historia_dominante": "Mineria, Huasteca y Arte Surrealista",
+    "leyendas_y_mitos": [
+      "El pueblo fantasma de Real de Catorce (donde solo caminan espectros)",
+      "El jinete sin cabeza en las carreteras de la Huasteca",
+      "Mitos sobre el Sotano de las Golondrinas como portal"
+    ]
+  },
+  "Sinaloa": {
+    "geografia": "Llanuras costeras, sierras, playas, rios. Vastas llanuras costeras destinadas a la agricultura. Sierra Madre Occidental al este. Litoral con esteros y grandes rios que bajan de la sierra.",
+    "elementos": [
+      "campos agricolas extensos",
+      "pueblos costeros",
+      "zonas serranas con dificil acceso",
+      "esteros y manglares",
+      "puerto de Mazatlan"
+    ],
+    "atmosfera": "Calor humedo, brisa marina, vastedad de campos",
+    "experiencia_sensorial": {
+      "olores": "Tierra cultivada, salitre, vegetacion marina en los esteros.",
+      "colores": "Verde intenso de los campos, ocre de la sierra, azul vibrante del Pacifico.",
+      "sonidos": "El sonido de las avionetas agricolas, el graznido de las aves en los esteros, el ruido del puerto."
+    },
+    "historia_dominante": "Agricultura, Mar y Litoral",
+    "leyendas_y_mitos": [
+      "La leyenda de la 'Mochila' (bruja que vuela por la sierra)",
+      "El fantasma de la Casona de la Calle Rosales",
+      "Historias de naufragios y tesoros hundidos en la costa"
+    ]
+  },
+  "Sonora": {
+    "geografia": "Desierto extenso, costa rocosa, sierras aridas. Dominado por el Desierto de Sonora (el mas caliente de Norteamerica). Sierras aridas y costa en el Mar de Cortes. Paisajes de dunas y cactus gigantes (saguaro).",
+    "elementos": [
+      "pueblos mineros (Cananea)",
+      "zonas fronterizas",
+      "misiones coloniales (San Javier)",
+      "desierto de roca y arena",
+      "playas desoladas"
+    ],
+    "atmosfera": "Calor extremo, sequedad absoluta, silencio desertico",
+    "experiencia_sensorial": {
+      "olores": "Tierra quemada, polvo, salinidad en la costa, el olor acre de las minas.",
+      "colores": "Marron y gris de la tierra, azul vibrante del cielo.",
+      "sonidos": "El crujido de la arena bajo el sol, el ulular del viento en las sierras."
+    },
+    "historia_dominante": "Frontera, Misiones y Desierto Extremo",
+    "leyendas_y_mitos": [
+      "El 'Fantasma del Camino' en la carretera de la Costa",
+      "Historias de 'El Chupacabras' en los ranchos aislados",
+      "El mito de la 'Sierra de las Brujas' (zona de fenomenos extraños)"
+    ]
+  },
+  "Tabasco": {
+    "geografia": "Selva humeda, rios caudalosos, pantanos, lagunas. Estado de llanuras y baja altitud. Clima tropical muy humedo. Dominado por la vasta red de rios (Usumacinta, Grijalva) y pantanos que cubren la mitad del territorio.",
+    "elementos": [
+      "zonas petroleras",
+      "rios y lagunas",
+      "selva densa",
+      "zonas arqueologicas (La Venta)",
+      "pantanos y cienagas"
+    ],
+    "atmosfera": "Humedad extrema constante, sonidos de fauna, calor sofocante",
+    "experiencia_sensorial": {
+      "olores": "Lodo y agua estancada, petroleo crudo, vegetacion en putrefaccion.",
+      "colores": "Verde oscuro, marron turbio de los rios.",
+      "sonidos": "El rugido constante de los motores de lancha, el croar de ranas y el grito de monos."
+    },
+    "historia_dominante": "Cultura Olmeca y Petroleo",
+    "leyendas_y_mitos": [
+      "El fantasma de la Malinche en el Grijalva",
+      "El mito de la Serpiente de Agua (guardian de los rios)",
+      "Historias de brujeria y rituales en la selva profunda"
+    ]
+  },
+  "Tamaulipas": {
+    "geografia": "Costa del Golfo, llanuras, montañas, zona fronteriza. Extenso litoral en el Golfo de Mexico. La Sierra Madre Oriental en el suroeste. Vastas llanuras ganaderas y la importante zona fronteriza en el norte.",
+    "elementos": [
+      "pueblos fronterizos",
+      "zonas petroleras",
+      "playas desoladas",
+      "ranchos ganaderos",
+      "faros antiguos"
+    ],
+    "atmosfera": "Calor humedo costero, vientos del golfo, aislamiento fronterizo",
+    "experiencia_sensorial": {
+      "olores": "Salitre, petroleo y gas, pasto seco.",
+      "colores": "Azul grisaceo del Golfo, marron de las llanuras.",
+      "sonidos": "El ulular del viento en la costa, el ruido del trafico fronterizo."
+    },
+    "historia_dominante": "Frontera, Ganaderia y Petroleo",
+    "leyendas_y_mitos": [
+      "El 'Chamuco' de Reynosa (leyenda del diablo en un baile)",
+      "Historias de barcos fantasma en la costa de Tampico",
+      "El espectro de la Casa de la Cultura de Ciudad Victoria"
+    ]
+  },
+  "Tlaxcala": {
+    "geografia": "Valles, volcanes cercanos, haciendas extensas. El estado mas pequeño. Ubicado en el Altiplano Central. Valles fertiles y llanuras. Rodeado por los volcanes Malintzin y el Iztaccihuatl.",
+    "elementos": [
+      "ex haciendas pulqueras",
+      "conventos coloniales (el mas antiguo de America)",
+      "pueblos tradicionales",
+      "zonas arqueologicas (Cacaxtla)",
+      "bosques de coniferas"
+    ],
+    "atmosfera": "Frio de altura, neblina matinal, silencio rural",
+    "experiencia_sensorial": {
+      "olores": "Tierra cultivada, pulque, pino y musgo.",
+      "colores": "Ocre de los campos, gris de la neblina.",
+      "sonidos": "El silencio roto solo por el viento, el canto de las aves."
+    },
+    "historia_dominante": "Alianza con España y Cultura del Maguey",
+    "leyendas_y_mitos": [
+      "La Malinche (leyenda del volcan y sus tesoros)",
+      "La Xochitla (mujer que seduce a los hombres borrachos en el campo)",
+      "Historias de fantasmas en el Convento de San Francisco"
+    ]
+  },
+  "Veracruz": {
+    "geografia": "Costa del Golfo, montañas, selva, rios. Larga franja costera. Clima tropical en el sur y templado en las faldas del Cofre de Perote y Pico de Orizaba. Selva humeda y grandes rios que bajan de la sierra.",
+    "elementos": [
+      "haciendas cafetaleras",
+      "pueblos costeros",
+      "zonas arqueologicas (El Tajin)",
+      "puertos y fortalezas",
+      "bosques de niebla"
+    ],
+    "atmosfera": "Humedad tropical, vientos del norte, oleaje constante",
+    "experiencia_sensorial": {
+      "olores": "Cafe tostado, salitre, caña de azucar, humedad de selva.",
+      "colores": "Verde intenso en la montaña, azul oscuro en el Golfo.",
+      "sonidos": "El 'Norte' (viento fuerte), el sonido de los barcos en el puerto, el graznido de la fauna."
+    },
+    "historia_dominante": "Puerta de Mexico, Cafe y Cultura Totonaca",
+    "leyendas_y_mitos": [
+      "La Mulata de Cordoba (bruja que escapo de la prision con magia)",
+      "La Llorona en el Malecon de Veracruz",
+      "Los chaneques (duendes) que habitan en la selva y las fincas"
+    ]
+  },
+  "Yucatan": {
+    "geografia": "Selva baja, cenotes, costa caribeña, planicies. Peninsula plana, compuesta principalmente de piedra caliza. Selva baja y seca. Carente de rios superficiales, el agua se concentra en cenotes y cuevas subterraneas.",
+    "elementos": [
+      "haciendas henequeneras (sisal)",
+      "cenotes (abiertos y de caverna)",
+      "zonas arqueologicas mayas (Chichen Itza)",
+      "pueblos tradicionales con arquitectura colonial",
+      "ciudades mayas inmersas en la selva"
+    ],
+    "atmosfera": "Calor seco, humedad nocturna, silencio de selva",
+    "experiencia_sensorial": {
+      "olores": "Polvo de caliza, flor de henequen, el aroma mineral en los cenotes.",
+      "colores": "Verde grisaceo de la selva, blanco puro de la cantera.",
+      "sonidos": "El susurro del viento entre las hojas, el goteo constante en los cenotes."
+    },
+    "historia_dominante": "Cultura Maya, Henequen y Cenotes",
+    "leyendas_y_mitos": [
+      "Los aluxes que cuidan los campos de henequen y las ruinas",
+      "La Xtabay (mujer demoniaca que aparece como hermosa mujer)",
+      "El mito de la formacion de los cenotes (puertas al inframundo maya)"
+    ]
+  },
+  "Zacatecas": {
+    "geografia": "Meseta semiarida, sierras, valles mineros. Meseta semiarida del Altiplano Central. Tierras altas y clima frio. Sierras con formaciones rocosas unicas. Rica en vetas de plata que han marcado su historia.",
+    "elementos": [
+      "minas coloniales de plata",
+      "haciendas de beneficio",
+      "acueductos de cantera",
+      "pueblos mineros",
+      "telefericos sobre la ciudad"
+    ],
+    "atmosfera": "Frio de altura, vientos constantes, eco en minas",
+    "experiencia_sensorial": {
+      "olores": "Metal y azufre de mina, cantera fria, tierra seca.",
+      "colores": "Rosa de la cantera, gris plomo del altiplano.",
+      "sonidos": "El chirrido del teleferico, el eco en las profundidades de la mina."
+    },
+    "historia_dominante": "Riqueza Minera y Arquitectura Colonial",
+    "leyendas_y_mitos": [
+      "El fantasma del minero 'El Sereno' en la Mina del Eden",
+      "La Dama Enlutada que deambula por el Centro Historico",
+      "Historias de tesoros escondidos en la Sierra de organos"
+    ]
+  },
+  "Ciudad de Mexico": {
+    "geografia": "Valle lacustre, zona metropolitana, volcanes circundantes. Ubicada en un antiguo valle lacustre rodeado por montañas y volcanes. Una vasta y densa mancha urbana con zonas antiguas (Centro) y modernas, que sigue hundiendose lentamente.",
+    "elementos": [
+      "barrios antiguos y coloniales",
+      "edificios virreinales",
+      "metro subterraneo y tuneles",
+      "zonas arqueologicas (Templo Mayor)",
+      "canales y chinampas de Xochimilco"
+    ],
+    "atmosfera": "Ruido urbano constante, smog, bullicio que contrasta con soledad",
+    "experiencia_sensorial": {
+      "olores": "Gases de combustion, comida callejera, humedad de los tuneles del Metro, incienso en iglesias.",
+      "colores": "Gris de la ciudad, colores brillantes de los murales.",
+      "sonidos": "El 'chirrido' del metro, los claxons, el pregon de los vendedores, el silencio en el Templo Mayor."
+    },
+    "historia_dominante": "Tenochtitlan, Capital Virreinal y Gran Metropoli",
+    "leyendas_y_mitos": [
+      "La Llorona en los canales de Xochimilco",
+      "El fantasma de la Dama de Rojo en la Casa de los Mascarones",
+      "Los tuneles secretos de 'la Ciudad de los Palacios' que conectan el Centro"
+    ]
+  }
+}
