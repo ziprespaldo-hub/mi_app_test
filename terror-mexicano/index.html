@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Generador de historias de terror originales basadas en los 32 estados de México">
+    <meta name="keywords" content="terror, horror, México, literatura, cuentos, historias">
+    <title>Historias de Terror Mexicanas - Generador Literario</title>
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>⚰️ Historias de Terror Mexicanas ⚰️</h1>
+            <p class="subtitle">Generador Literario de Narrativa Oscura</p>
+            <p class="subtitle-small" style="font-size: 0.9em; margin-top: 10px; color: #d4af37;">
+                🗄️ Sistema Modular: <span id="dbStats">Cargando...</span>
+            </p>
+        </header>
+
+        <div class="main-content">
+            <!-- Form Panel -->
+            <div id="form-panel" class="panel">
+                <h2>🕯️ Elementos de tu Historia</h2>
+
+                <!-- API Configuration -->
+                <div class="api-section">
+                    <label>
+                        <input type="checkbox" id="useApi" onchange="toggleApiConfig()">
+                        Usar API para generación avanzada
+                    </label>
+                    
+                    <div id="apiConfig" style="display: none; margin-top: 15px;">
+                        <div class="api-options">
+                            <div class="api-option">
+                                <input type="radio" id="apiOpenRouter" name="apiProvider" value="openrouter">
+                                <label for="apiOpenRouter">OpenRouter</label>
+                            </div>
+                            <div class="api-option">
+                                <input type="radio" id="apiOpenAI" name="apiProvider" value="openai">
+                                <label for="apiOpenAI">OpenAI</label>
+                            </div>
+                            <div class="api-option">
+                                <input type="radio" id="apiGemini" name="apiProvider" value="gemini">
+                                <label for="apiGemini">Gemini</label>
+                            </div>
+                            <div class="api-option">
+                                <input type="radio" id="apiClaude" name="apiProvider" value="claude" checked>
+                                <label for="apiClaude">Claude</label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="apiKey">API Key:</label>
+                            <input type="password" id="apiKey" placeholder="Ingresa tu API key (se guardará localmente)">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Estado Selection -->
+                <div class="form-group">
+                    <label for="estado">Estado de la República Mexicana:</label>
+                    <select id="estado" onchange="loadStateInfo()">
+                        <option value="">Selecciona un estado...</option>
+                    </select>
+                    <div id="stateInfo" class="state-info"></div>
+                </div>
+
+                <!-- Terror Types -->
+                <div class="form-group">
+                    <label>Tipos de Terror (puedes seleccionar varios):</label>
+                    <div class="terror-types">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="type-gotico" value="gótico">
+                            <label for="type-gotico">Gótico</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="type-psicologico" value="psicológico">
+                            <label for="type-psicologico">Psicológico</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="type-sobrenatural" value="sobrenatural">
+                            <label for="type-sobrenatural">Sobrenatural</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="type-cosmico" value="cósmico">
+                            <label for="type-cosmico">Cósmico</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="type-paranormal" value="paranormal">
+                            <label for="type-paranormal">Paranormal</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="type-folk" value="folk horror">
+                            <label for="type-folk">Folk Horror</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="type-gore" value="gore">
+                            <label for="type-gore">Gore/Splatter</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="type-urbano" value="urbano">
+                            <label for="type-urbano">Urbano/Cotidiano</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="type-casas" value="casas encantadas">
+                            <label for="type-casas">Casas Encantadas</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========================================= -->
+                <!-- PERSONAJES (MODULAR) -->
+                <!-- ========================================= -->
+                <div class="form-group">
+                    <label for="personajes-predefinidos">Personajes Principales:</label>
+                    <p class="small-hint" style="font-size: 0.9em; color: #8b4513; margin-bottom: 10px;">
+                        💡 Selecciona 1-3 personajes de la base de datos o describe los tuyos abajo.
+                    </p>
+                    
+                    <select id="personajes-predefinidos" multiple size="5" style="width: 100%; margin-bottom: 10px; padding: 8px; font-family: 'Georgia', serif;">
+                        <option value="">Cargando personajes...</option>
+                    </select>
+                    
+                    <div class="form-group-inline" style="display: flex; gap: 10px; margin-bottom: 10px;">
+                        <button type="button" class="btn btn-secondary btn-small" onclick="sugerirPersonajesAleatorios()" style="padding: 6px 12px; font-size: 0.9em;">
+                            🎲 Sugerir Aleatorios
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-small" onclick="autocompletarDesdeSeleccion()" style="padding: 6px 12px; font-size: 0.9em;">
+                            📝 Usar Seleccionados
+                        </button>
+                    </div>
+                    
+                    <textarea id="personajes-custom" placeholder="O describe tus personajes personalizados aquí (Nombres, Género, Edad, Características, Roles)...
+
+Ejemplo:
+Mateo, Masculino, 31 años: Paramédico del turno nocturno. Recibe llamadas desde números de personas fallecidas."></textarea>
+                </div>
+
+                <!-- ========================================= -->
+                <!-- ANTAGONISTA (NUEVO - MODULAR) -->
+                <!-- ========================================= -->
+                <div class="form-group">
+                    <label for="antagonista">👹 Entidad de Terror / Antagonista:</label>
+                    <p class="small-hint" style="font-size: 0.9em; color: #8b4513; margin-bottom: 10px;">
+                        💡 El elemento que genera el miedo. Puede ser sobrenatural, humano o psicológico.
+                    </p>
+                    <select id="antagonista" style="width: 100%; padding: 10px; font-family: 'Georgia', serif; font-size: 1em;">
+                        <option value="">Cargando antagonistas...</option>
+                    </select>
+                </div>
+
+                <!-- ========================================= -->
+                <!-- LUGAR (MODULAR) -->
+                <!-- ========================================= -->
+                <div class="form-group">
+                    <label for="lugar-predefinido">Lugar Específico:</label>
+                    <p class="small-hint" style="font-size: 0.9em; color: #8b4513; margin-bottom: 10px;">
+                        💡 Selecciona un lugar predefinido o describe el tuyo abajo.
+                    </p>
+                    <select id="lugar-predefinido" style="width: 100%; padding: 10px; margin-bottom: 10px; font-family: 'Georgia', serif;">
+                        <option value="">Ninguno (escribiré mi propio lugar)</option>
+                    </select>
+                    
+                    <textarea id="lugar" placeholder="O describe tu propio lugar aquí...
+
+Ejemplos:
+- Planta de tratamiento subterránea con túneles no registrados
+- Edificio de oficinas donde el piso 13 oficialmente no existe
+- Motel de carretera con habitaciones que tienen cerraduras por fuera"></textarea>
+                </div>
+
+                <!-- ========================================= -->
+                <!-- ÉPOCA (MODULAR) -->
+                <!-- ========================================= -->
+                <div class="form-group">
+                    <label for="epoca-predefinida">Época/Tiempo:</label>
+                    <p class="small-hint" style="font-size: 0.9em; color: #8b4513; margin-bottom: 10px;">
+                        💡 Selecciona una época o describe la tuya.
+                    </p>
+                    <select id="epoca-predefinida" style="width: 100%; padding: 10px; margin-bottom: 10px; font-family: 'Georgia', serif;">
+                        <option value="">Ninguna (escribiré mi propia época)</option>
+                    </select>
+                    
+                    <input type="text" id="epoca" placeholder="O escribe aquí: actualidad, años 80, época colonial, futuro cercano...">
+                </div>
+
+                <!-- ========================================= -->
+                <!-- TRAMA (OBLIGATORIO - TEXTO LIBRE) -->
+                <!-- ========================================= -->
+                <div class="form-group">
+                    <label for="trama">📖 Trama/Conflicto Principal (Tu Guía Narrativa):</label>
+                    <p class="small-hint" style="font-size: 0.9em; color: #8b4513; margin-bottom: 10px;">
+                        ⚠️ <strong>Campo obligatorio.</strong> Describe el conflicto principal y los eventos clave.
+                    </p>
+                    <textarea id="trama" placeholder="Describe QUÉ sucede en tu historia...
+
+Ejemplos:
+- Paramédico recibe llamadas de emergencia que ocurrirán en el futuro
+- Guardia nocturno descubre que la fábrica abandonada sigue operando
+- Conductora de autobús recoge pasajeros que no aparecen en cámaras de seguridad
+
+Este es el corazón de tu historia. Sé específico." style="min-height: 120px;"></textarea>
+                </div>
+
+                <!-- ========================================= -->
+                <!-- ELEMENTOS (NUEVO - MODULAR) -->
+                <!-- ========================================= -->
+                <div class="form-group">
+                    <label for="elementos-predefinidos">🔮 Elementos de Terror (Objetos/Situaciones):</label>
+                    <p class="small-hint" style="font-size: 0.9em; color: #8b4513; margin-bottom: 10px;">
+                        💡 Opcional. Selecciona 1-3 elementos que aparecerán en la historia (objetos malditos, fenómenos, situaciones).
+                    </p>
+                    
+                    <select id="elementos-predefinidos" multiple size="6" style="width: 100%; margin-bottom: 10px; padding: 8px; font-family: 'Georgia', serif;">
+                        <option value="">Cargando elementos...</option>
+                    </select>
+                    
+                    <textarea id="elementos" placeholder="O describe tus propios elementos aquí...
+
+Ejemplos:
+- Espejo antiguo que no refleja el presente sino el pasado
+- Llamadas telefónicas desde números desconectados
+- Apagones que duran cada vez más tiempo"></textarea>
+                </div>
+
+                <!-- ========================================= -->
+                <!-- IMPORTACIÓN DE DATOS (NUEVA SECCIÓN) -->
+                <!-- ========================================= -->
+                <div class="form-group" id="import-section">
+                    <label>📥 Importar Datos desde Texto</label>
+                    <p class="small-hint" style="font-size: 0.9em; color: #8b4513; margin-bottom: 10px;">
+                        💡 Pega tu texto estructurado (como BASE_DATOS_CUENTOS.TXT) para cargar personajes y antagonistas adicionales
+                    </p>
+                    <textarea id="import-textarea" placeholder="Pega aquí tu texto estructurado...
+
+Ejemplo:
+Clara   Femenino   25  Joven introvertida que hereda una casa antigua...
+David   Masculino  35  Detective con trauma por pérdida familiar..." 
+style="width: 100%; height: 120px; margin-bottom: 10px; font-family: monospace; font-size: 0.9em;"></textarea>
+                    
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                        <button type="button" class="btn btn-secondary" onclick="importarDesdeTexto()" style="padding: 8px 15px;">
+                            📥 Importar Datos
+                        </button>
+                        <button type="button" class="btn btn-secondary" onclick="exportarDatos()" style="padding: 8px 15px;">
+                            📤 Exportar Datos
+                        </button>
+                        <button type="button" class="btn btn-secondary" onclick="limpiarDatosImportados()" style="padding: 8px 15px;">
+                            🗑️ Limpiar Importados
+                        </button>
+                    </div>
+                    
+                    <div id="import-status" style="margin-top: 10px; font-size: 0.9em;"></div>
+                </div>
+
+                <!-- ========================================= -->
+                <!-- BOTÓN GENERAR -->
+                <!-- ========================================= -->
+                <div class="button-group">
+                    <button class="btn btn-primary" onclick="generateStory()">
+                        🕯️ Generar Historia de Terror 🕯️
+                    </button>
+                </div>
+            </div>
+
+            <!-- Result Panel -->
+            <div id="result" class="panel" style="display: none;">
+                <h2>📜 Tu Historia</h2>
+                <div id="storyOutput"></div>
+                <div class="button-group">
+                    <button class="btn btn-secondary" onclick="exportStory('txt')">
+                        💾 Exportar como TXT
+                    </button>
+                    <button class="btn btn-secondary" onclick="exportStory('md')">
+                        📝 Exportar como Markdown
+                    </button>
+                    <button class="btn btn-primary" onclick="resetForm()">
+                        🔄 Nueva Historia
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer style="text-align: center; margin-top: 30px; padding: 20px; color: #d4af37; font-size: 0.9em; border-top: 2px solid #8b4513;">
+            <p style="margin: 10px 0;">💀 <strong>Sistema Modular de Generación de Terror</strong> 💀</p>
+            <p style="font-size: 0.85em; color: #8b4513;">
+                Personajes • Antagonistas • Lugares • Épocas • Elementos | Combinaciones infinitas
+            </p>
+            <p style="font-size: 0.8em; margin-top: 15px;">
+                🎭 <span id="moduleStats">Módulos cargando...</span>
+            </p>
+        </footer>
+    </div>
+
+    <!-- ========================================= -->
+    <!-- SCRIPTS - ORDEN CORREGIDO -->
+    <!-- ========================================= -->
+    
+    <!-- 1. DATA MODULES (primero - define los arrays) -->
+    <script src="js/data-modulos.js"></script>
+    <script src="sistema-estados-lugares.js"></script>
+    <script src="database.js"></script>
+    <script src="js/importador-datos.js"></script>
+    
+    <script src="js/storage-manager.js"></script>
+    <script src="js/api-service.js"></script>
+    <script src="js/api-handlers.js"></script>
+    <script src="js/template-engine.js"></script>
+    <script src="js/tecnicas.js"></script>
+    
+    <script src="js/generator.js"></script>
+    
+    <script src="js/app.js"></script>
+    
+    <script>
+        // Actualizar estadísticas en footer
+        function updateModuleStats() {
+            const statsElement = document.getElementById('moduleStats');
+            const dbStatsElement = document.getElementById('dbStats');
+            
+            if (window.MODULOS_PERSONAJES && statsElement) {
+                const stats = `${window.MODULOS_PERSONAJES.length} personajes • ${window.MODULOS_ANTAGONISTAS.length} antagonistas • ${window.MODULOS_LUGARES.length} lugares • ${window.MODULOS_EPOCAS.length} épocas`;
+                statsElement.textContent = stats;
+                
+                if (dbStatsElement) {
+                    dbStatsElement.textContent = 'Sistema Listo ✓';
+                    dbStatsElement.style.color = '#00ff00';
+                }
+            }
+        }
+        
+        // Mostrar estadísticas de importación
+        function showImportStats() {
+            const importStatus = document.getElementById('import-status');
+            if (window.datosImportados && importStatus) {
+                // Verificamos si la función existe en importador-datos.js
+                const stats = typeof window.obtenerEstadisticasImportacion === 'function' 
+                    ? window.obtenerEstadisticasImportacion() 
+                    : { protagonistas: 0, antagonistas: 0 };
+
+                if (stats.protagonistas > 0 || stats.antagonistas > 0) {
+                    importStatus.innerHTML = `
+                        <span style="color: #00ff00;">
+                            ✅ ${stats.protagonistas} personajes y ${stats.antagonistas} antagonistas importados
+                        </span>
+                    `;
+                }
+            }
+        }
+        
+        // Ejecutar después de que todo cargue
+        window.addEventListener('load', () => {
+            // Damos un pequeño margen para que los scripts terminen de procesar
+            setTimeout(() => {
+                updateModuleStats();
+                showImportStats();
+            }, 500);
+        });
+
+        // Función global para toggle API
+        function toggleApiConfig() {
+            const useApi = document.getElementById('useApi');
+            const apiConfig = document.getElementById('apiConfig');
+            if (useApi && apiConfig) {
+                apiConfig.style.display = useApi.checked ? 'block' : 'none';
+            }
+        }
+    </script>
+</body>
+</html>
